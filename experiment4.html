@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="a" align="center"> 
+        <h1>Hotel Booking Form</h1>
+
+        <label for="Full Name">Full Name:</label>
+        <input type="text" name="Full Name" id="Full Name"><br><br>
+
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="Email"><br><br>
+
+        <label for="Phone">Phone:</label>
+        <input type="tel" name="Phone" id="Phone"><br><br>
+
+        <label for ="CheckIn">Check In:</label>
+        <input type="date" name="CheckIn" id="CheckIn"><br><br>
+
+        <label for="CheckOut">Check Out:</label>
+        <input type="date" name="CheckOut" id="CheckOut"><br><br>
+
+        <label for="RoomType">Room Type:</label>
+        <select name="RoomType" id="RoomType">
+            <option value="Single">Single</option>
+            <option value="Double">Double</option>
+            <option value="Luxury">Luxury</option>
+            <option value="Suite">Suite</option>
+        </select><br><br>
+
+        <label for="Guests">Number of Guests:</label>
+        <input type="number" name="Guests" id="Guests" min="1" max="10"><br><br>
+        
+        <label for="Request">Special Requests:</label><br>
+        <textarea name="SpecialRequests" id="SpecialRequests" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Book Now">
+        <input type="reset" value="Reset Form">
+    </form>
+</body>
+</html>
